@@ -1,6 +1,6 @@
 {
   "name": "toastify-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A customizable, theme-rich toast notification library using HTML, CSS, and JS",
   "main": "toast.js",                    
   "module": "toast.js",                  
