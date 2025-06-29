@@ -1,8 +1,10 @@
 {
   "name": "toastify-css",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A customizable, theme-rich toast notification library using HTML, CSS, and JS",
-  "main": "toast.js",
+  "main": "toast.js",                    
+  "module": "toast.js",                  
+  "style": "toast.css",                  
   "files": [
     "toast.js",
     "toast.css"
@@ -17,5 +19,16 @@
     "library"
   ],
   "author": "Shaik Sharzil",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaiksharzil/toastify-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaiksharzil/toastify-css/issues"
+  },
+  "homepage": "https://github.com/shaiksharzil/toastify-css#readme"
 }
