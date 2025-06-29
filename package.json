@@ -1,0 +1,21 @@
+{
+  "name": "toastify-css",
+  "version": "1.0.0",
+  "description": "A customizable, theme-rich toast notification library using HTML, CSS, and JS",
+  "main": "toast.js",
+  "files": [
+    "toast.js",
+    "toast.css"
+  ],
+  "keywords": [
+    "toast",
+    "toastify",
+    "notification",
+    "css",
+    "js",
+    "popup",
+    "library"
+  ],
+  "author": "Shaik Sharzil",
+  "license": "MIT"
+}
