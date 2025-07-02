@@ -1,7 +1,7 @@
 {
-  "name": "toastify-css",
-  "version": "1.0.4",
-  "description": "A customizable, theme-rich toast notification library using HTML, CSS, and JS",
+  "name": "hot-toast-js",
+  "version": "1.0.0",
+  "description": "A customizable, theme-rich toast notification library using vanilla JavaScript and CSS",
   "main": "toast.js",
   "module": "toast.js",
   "style": "toast.css",
@@ -11,12 +11,15 @@
   ],
   "keywords": [
     "toast",
-    "toastify",
     "notification",
-    "css",
-    "js",
+    "toast-js",
     "popup",
-    "library"
+    "ui",
+    "hot-toast",
+    "toast library",
+    "javascript",
+    "html",
+    "css"
   ],
   "author": "Shaik Sharzil",
   "license": "MIT",
@@ -25,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaiksharzil/toastify-css.git"
+    "url": "git+https://github.com/shaiksharzil/hot-toast-js.git"
   },
   "bugs": {
-    "url": "https://github.com/shaiksharzil/toastify-css/issues"
+    "url": "https://github.com/shaiksharzil/hot-toast-js/issues"
   },
-  "homepage": "https://github.com/shaiksharzil/toastify-css#readme"
+  "homepage": "https://github.com/shaiksharzil/hot-toast-js#readme"
 }

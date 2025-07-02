@@ -5,6 +5,7 @@
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .neumorphic {
@@ -12,7 +13,7 @@
   color: #333;
   box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
-.neumorphic-dark {
+.neumorphicDark {
   background: #1e1e1e;
   color: #e0e0e0;
   box-shadow: inset 4px 4px 8px #141414, inset -4px -4px 8px #2a2a2a,
@@ -39,7 +40,7 @@
   box-shadow: 6px 6px 0px #000;
 }
 
-.material-dark {
+.materialDark {
   background: #2a2a2a;
   color: #fff;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
@@ -84,7 +85,7 @@
   border: 2px solid #000;
 }
 
-.solarized-dark {
+.solarizedDark {
   background: #002b36;
   color: #93a1a1;
   border: 1px solid #586e75;
@@ -798,5 +799,63 @@
   }
   100% {
     width: 0%;
+  }
+}
+
+/* Icon animations */
+
+@keyframes iconBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes iconSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes iconPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes iconWave {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(15deg); }
+  30% { transform: rotate(-10deg); }
+  45% { transform: rotate(15deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes iconFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* Loaders */
+.loader {
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top: 3px solid white;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
