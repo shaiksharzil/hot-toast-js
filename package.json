@@ -1,6 +1,6 @@
 {
   "name": "hot-toast-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable, theme-rich toast notification library using vanilla JavaScript and CSS",
   "main": "toast.js",
   "module": "toast.js",
