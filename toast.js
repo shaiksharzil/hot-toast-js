@@ -338,4 +338,4 @@ function toast(options = {}) {
 
   return controller;
 }
-// export default toast;
+export default toast;
