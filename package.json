@@ -5,6 +5,8 @@
   "main": "toast.js",
   "module": "toast.js",
   "style": "toast.css",
+  "unpkg": "toast.umd.js",
+  "jsdelivr": "toast.umd.js",
   "files": [
     "toast.js",
     "toast.css",
