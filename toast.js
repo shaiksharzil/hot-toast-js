@@ -47,7 +47,7 @@ function toast(options = {}) {
     closeButtonSize = "1rem",
     showActionButton = false,
     actionButtonThemeName = themeName,
-    actionButtonLabel = "Click",
+    actionButtonLabel,
     onAction,
     actionButtonColor,
     actionButtonBackground,
